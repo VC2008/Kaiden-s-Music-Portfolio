@@ -1,3 +1,13 @@
+.jukebox {
+  position: relative;}
+.jukebox ul {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0px;}
+.jukebox:hover ul, .activate:focus + ul, .jukebox:focus-within > ul {
+  display: inline-block;}
+
 body {
     font-family: 'Kavoon', cursive;
     align-content: center;
