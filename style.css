@@ -11,8 +11,14 @@
 body {
     font-family: 'Kavoon', cursive;
     align-content: center;
+    background-color: rgb(92, 0, 0);
 }
 nav {
     background-color: #502828;
     color: #000000;
+}
+
+h1 {
+    color: #ff0000;
+    text-align: center;
 }

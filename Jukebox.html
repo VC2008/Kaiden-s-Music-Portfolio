@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
     <head>
-        <title>Kaiden's Music</title>
+        <title>The Abyssbox Page</title>
         <!-- Required meta tags -->
         <meta charset="utf-8" />
         <meta
@@ -24,7 +24,7 @@
             <!-- Nav tabs -->
             <ul class="nav nav-tabs" id="navId" role="tablist">
                 <li class="nav-item">
-                    <a href="#" class="nav-link active" data-bs-toggle="tab">Active</a>
+                    <a href="Jukebox.html" class="nav-link active" data-bs-toggle="tab">Jukebox</a>
                 </li>
                  <li class="nav-item">
                     <a href="index.html" class="nav-link active" data-bs-toggle="tab">Home</a>
@@ -58,7 +58,7 @@
             <!-- Jukebox function-->
 
             <div class="jukebox">
- <button class="activate"><img src="https://solaria.neocities.org/smallgifs/cdspin.gif"></button>
+ <button class="activate"><img src="IMGS/The box.png"></button>
   <ul>
    <button onclick="stopmusic()" >stop music</button>
    
@@ -74,21 +74,19 @@
    <li><button value="3" onclick="playsong()">Ball Knowledge
      <audio><source src="Ball Knowledge.mp3" type="audio/mp3"></audio>
    </button></li>
-   <li><button value="4" onclick="playsong()">500 Gory Blacks
+   <li><button value="4" onclick="playsong()">500 Angry Gorillas
      <audio><source src="500 Gory Blacks.mp3" type="audio/mp3"></audio>
    </button></li>
   </ul>
 
-  <marquee > 
+ <!--- <marquee > 
     <p id="marq">select a song!</p>
+    <li><button value="0" title="e" onclick="playsong()">500 Angry Gorillas
+  <audio><source src="https://media-upload.net/uploads/5S9FeDnNyrOE.mp3" type="audio/mp3"></audio>
+</button></li >
   </marquee>
-  
-  <script>
-    var y = document.getElementsByTagName('audio');
-    for(var j=0; j<y.length; j++) {
-      y[j].onended = function() {
-        document.getElementById('marq').innerHTML = 'select a song!';};}
-  </script>    
+-->
+ 
 </div> 
 
         </main>

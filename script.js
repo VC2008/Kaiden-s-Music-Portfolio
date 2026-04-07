@@ -18,6 +18,9 @@ bootstrap.Tab.getInstance(triggerEl).show(); // Select tab by name
   	
 
   	document.getElementById('marq').innerHTML = event.target.title;}
+
+
+
      function stopmusic() {
     var y = document.getElementsByTagName('audio');
     for(var j=0; j<y.length; j++) {
@@ -31,3 +34,17 @@ bootstrap.Tab.getInstance(triggerEl).show(); // Select tab by name
     document.getElementsByTagName('audio')[songvalue].currentTime = 0;
     document.getElementsByTagName('audio')[songvalue].play();}
      }
+
+// some other thing i guess
+
+        var y = document.getElementsByTagName('audio');
+    for(var j=0; j<y.length; j++) {
+      y[j].onended = function() {
+        document.getElementById('marq').innerHTML = 'select a song!';};}
+
+
+        function playsong() {
+  document.getElementById('marq').innerHTML = event.target.title;}
+  
+function stopmusic() {
+  document.getElementById('marq').innerHTML = 'no music is playing';}
