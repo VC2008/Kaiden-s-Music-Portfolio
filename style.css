@@ -19,6 +19,15 @@ nav {
 }
 
 h1 {
-    color: #ff0000;
+    color: #ffffff;
+    background-color: red;
+    text-align: center;
+}
+h3 {
+  color: #ffffff;
+    text-align: center;
+}
+p {
+    background-color: #000000;
     text-align: center;
 }
