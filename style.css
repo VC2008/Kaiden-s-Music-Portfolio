@@ -28,3 +28,20 @@ p {
     background-color: #000000;
     text-align: center;
 }
+h3 {
+  color: #ffffff;
+    text-align: center;
+}
+p {
+  color: #ffffff;
+    background-color: #000000;
+    text-align: center;
+}
+
+img {
+  align-content: center;
+}
+
+ul {
+  align-content: center;
+}
