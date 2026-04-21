@@ -40,6 +40,7 @@ p {
 
 img {
   align-content: center;
+  width: fit-content;
 }
 
 ul {
@@ -53,4 +54,8 @@ ul {
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
+}
+
+card  {
+  background-color: red;
 }
