@@ -28,20 +28,19 @@ p {
     color: #ffffff;
     background-color: #000000;
     text-align: center;
+    margin: auto;
+    padding: auto;
 }
 h3 {
   color: #ffffff;
-    text-align: center;
-}
-p {
-  color: #ffffff;
-    background-color: #000000;
     text-align: center;
 }
 
 img {
   align-content: center;
   width: fit-content;
+  margin: auto;
+  padding: auto;
 }
 
 ul {

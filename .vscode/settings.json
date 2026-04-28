@@ -2,5 +2,6 @@
     "cSpell.words": [
         "playsong",
         "stopmusic"
-    ]
+    ],
+    "liveServer.settings.port": 5501
 }
