@@ -12,6 +12,7 @@ body {
     font-family: 'Kavoon', cursive;
     align-content: center;
     background-color: rgb(92, 0, 0);
+    margin: auto;
 }
 nav {
     background-color: #502828;
